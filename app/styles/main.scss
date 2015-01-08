@@ -1,0 +1,25 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+html, body {
+	background: #333;
+}
+
+#states { 
+	fill: none; 
+	stroke: #555555; 
+	stroke-width: 0.5px; 
+}
+
+rect {
+    transition: fill 0.4s;
+}
+
+.selected { 
+	fill: #999999 
+}
+.unselected { 
+	fill: #ffffff 
+}
