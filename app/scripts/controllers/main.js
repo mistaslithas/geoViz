@@ -24,7 +24,7 @@ angular.module('zipsApp')
   var path = d3.geo.path().projection(proj);
 
     // Display: state borders
-    d3.json('us-states.geojson', function(states) {
+    d3.json('scripts/us-states.geojson', function(states) {
        // Display: state outlines
        svg.append("g").attr("id", "states");
        d3.select("#states").selectAll("path")
